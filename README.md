@@ -1,4 +1,4 @@
 pp-espresso
 ===========
 
-espresso postprocessing exercises
+Quantum Espresso postprocessing exercises
