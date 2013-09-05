@@ -1,0 +1,93 @@
+GFORTRAN module version '0' created from recvec.f90 on Thu Sep  5 03:26:00 2013
+MD5:de08502986c2bf4d133b1024206a715c -- If you edit this, you'll get what you deserve.
+
+(()
+() () () () () () () () () () () () () () () () () () () () () () () ()
+() ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'deallocate_gvect' 'gvect' 'deallocate_gvect' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+3 'dp' 'kinds' 'dp' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0
+0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+4 'ecutrho' 'gvect' 'ecutrho' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+5 'eigts1' 'gvect' 'eigts1' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+6 'eigts2' 'gvect' 'eigts2' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+7 'eigts3' 'gvect' 'eigts3' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+8 'g' 'gvect' 'g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+9 'gcutm' 'gvect' 'gcutm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+10 'gg' 'gvect' 'gg' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 DEFERRED () ()) 0 () () () 0 0)
+11 'gl' 'gvect' 'gl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION POINTER) (REAL 8 0 0 REAL ()) 0 0 () (1 DEFERRED
+() ()) 0 () () () 0 0)
+12 'gstart' 'gvect' 'gstart' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+13 'gvect' 'gvect' 'gvect' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+14 'gvect_init' 'gvect' 'gvect_init' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 15 0 (
+16 17) () 0 () () () 0 0)
+18 'ig_l2g' 'gvect' 'ig_l2g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+19 'igtongl' 'gvect' 'igtongl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+20 'mill' 'gvect' 'mill' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+21 'mill_g' 'gvect' 'mill_g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+22 'ngl' 'gvect' 'ngl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+23 'ngm' 'gvect' 'ngm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+24 'ngm_g' 'gvect' 'ngm_g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+25 'ngmx' 'gvect' 'ngmx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+26 'nl' 'gvect' 'nl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 DEFERRED () ()) 0 () () () 0 0)
+27 'nlm' 'gvect' 'nlm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 DEFERRED () ()) 0 () () () 0 0)
+28 'sortedig_l2g' 'gvect' 'sortedig_l2g' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+16 'ngm_' '' 'ngm_' 15 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+17 'comm' '' 'comm' 15 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('deallocate_gvect' 0 2 'dp' 0 3 'ecutrho' 0 4 'eigts1' 0 5 'eigts2' 0 6
+'eigts3' 0 7 'g' 0 8 'gcutm' 0 9 'gg' 0 10 'gl' 0 11 'gstart' 0 12 'gvect'
+0 13 'gvect_init' 0 14 'ig_l2g' 0 18 'igtongl' 0 19 'mill' 0 20 'mill_g'
+0 21 'ngl' 0 22 'ngm' 0 23 'ngm_g' 0 24 'ngmx' 0 25 'nl' 0 26 'nlm' 0 27
+'sortedig_l2g' 0 28)

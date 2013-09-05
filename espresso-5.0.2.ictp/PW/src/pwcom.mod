@@ -1,0 +1,616 @@
+GFORTRAN module version '0' created from pwcom.f90 on Thu Sep  5 03:28:15 2013
+MD5:74a7df3dc69497966086cddd0a9da9ad -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () ()
+() () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'absmag' 'lsda_mod' 'absmag' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+3 'alat' 'cell_base' 'alat' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+4 'at' 'cell_base' 'at' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+5 'at_old' 'cellmd' 'at_old' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2 EXPLICIT
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+6 'basis' 'basis' 'basis' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+7 'bg' 'cell_base' 'bg' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+8 'btype' 'wvfct' 'btype' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+9 'calc' 'cellmd' 'calc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4
+0 0 INTEGER ()) 0 '2'))) 0 0 () () 0 () () () 0 0)
+10 'cell_base' 'cell_base' 'cell_base' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+11 'cell_factor' 'cellmd' 'cell_factor' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+12 'celldm' 'cell_base' 'celldm' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '6')) 0 () () () 0 0)
+13 'cellmd' 'cellmd' 'cellmd' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+14 'cmass' 'cellmd' 'cmass' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+15 'constants' 'constants' 'constants' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+16 'conv_ns' 'ldau' 'conv_ns' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+17 'current_k' 'wvfct' 'current_k' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () ()
+0 () () () 0 0)
+18 'current_spin' 'lsda_mod' 'current_spin' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () ()
+0 () () () 0 0)
+19 'd_spin_ldau' 'ldau' 'd_spin_ldau' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0
+COMPLEX ()) 0 0 () (3 DEFERRED () () () () () ()) 0 () () () 0 0)
+20 'deallocate_gvecs' 'gvecs' 'deallocate_gvecs' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+21 'deallocate_gvect' 'gvect' 'deallocate_gvect' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+22 'deband' 'ener' 'deband' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+23 'degauss' 'klist' 'degauss' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+24 'demet' 'ener' 'demet' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+25 'dipfield' 'extfield' 'dipfield' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+26 'domag' 'spin_orb' 'domag' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+27 'doublegrid' 'gvecs' 'doublegrid' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+28 'dp' 'kinds' 'dp' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0
+0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+29 'dq' 'us' 'dq' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8 0 0 REAL ())
+0 '0.28f5c28f5c28f6@-1') () 0 () () () 0 0)
+30 'dual' 'gvecs' 'dual' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+31 'e2' 'constants' 'e2' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8 0 0
+REAL ()) 0 '0.20000000000000@1') () 0 () () () 0 0)
+32 'eamp' 'extfield' 'eamp' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+33 'eband' 'ener' 'eband' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+34 'ecfixed' 'wvfct' 'ecfixed' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+35 'ecutrho' 'gvect' 'ecutrho' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+36 'ecuts' 'gvecs' 'ecuts' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+37 'ecutwfc' 'wvfct' 'ecutwfc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+38 'edir' 'extfield' 'edir' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+39 'ef' 'ener' 'ef' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+40 'ef_dw' 'ener' 'ef_dw' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+41 'ef_up' 'ener' 'ef_up' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+42 'ehart' 'ener' 'ehart' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+43 'eigts1' 'gvect' 'eigts1' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+44 'eigts2' 'gvect' 'eigts2' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+45 'eigts3' 'gvect' 'eigts3' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+46 'elondon' 'ener' 'elondon' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+47 'emaxpos' 'extfield' 'emaxpos' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+48 'ener' 'ener' 'ener' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+49 'eopreg' 'extfield' 'eopreg' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+50 'epaw' 'ener' 'epaw' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+51 'epse' 'relax' 'epse' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+52 'epsf' 'relax' 'epsf' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+53 'epsp' 'relax' 'epsp' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+54 'et' 'wvfct' 'et' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2
+DEFERRED () () () ()) 0 () () () 0 0)
+55 'eth' 'ldau' 'eth' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+56 'etot' 'ener' 'etot' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+57 'etotefield' 'extfield' 'etotefield' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+58 'etxc' 'ener' 'etxc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+59 'etxcc' 'ener' 'etxcc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+60 'ewld' 'ener' 'ewld' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+61 'extfield' 'extfield' 'extfield' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+62 'f_inp' 'fixed_occ' 'f_inp' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+63 'fcoef' 'spin_orb' 'fcoef' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (5 DEFERRED () () () () () () () () () ()) 0 () () () 0 0)
+64 'fixed_occ' 'fixed_occ' 'fixed_occ' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+65 'force' 'force_mod' 'force' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+66 'force_mod' 'force_mod' 'force_mod' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+67 'forcefield' 'extfield' 'forcefield' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0
+REAL ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+68 'fpi' 'constants' 'fpi' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8 0 0
+REAL ()) 0 '0.c90fdaa22168c0@1') () 0 () () () 0 0)
+69 'g' 'gvect' 'g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+70 'g2kin' 'wvfct' 'g2kin' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 DEFERRED () ()) 0 () () () 0 0)
+71 'gcutm' 'gvect' 'gcutm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+72 'gcutms' 'gvecs' 'gcutms' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+73 'gg' 'gvect' 'gg' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 DEFERRED () ()) 0 () () () 0 0)
+74 'gl' 'gvect' 'gl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION POINTER) (REAL 8 0 0 REAL ()) 0 0 () (1 DEFERRED
+() ()) 0 () () () 0 0)
+75 'gstart' 'gvect' 'gstart' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+76 'gvecs' 'gvecs' 'gvecs' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+77 'gvecs_init' 'gvecs' 'gvecs_init' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 78 0 (
+79 80) () 0 () () () 0 0)
+81 'gvect' 'gvect' 'gvect' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+82 'gvect_init' 'gvect' 'gvect_init' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 83 0 (
+84 85) () 0 () () () 0 0)
+86 'hubbard_alpha' 'ldau' 'hubbard_alpha' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+87 'hubbard_beta' 'ldau' 'hubbard_beta' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+88 'hubbard_j' 'ldau' 'hubbard_j' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+89 'hubbard_j0' 'ldau' 'hubbard_j0' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+90 'hubbard_l' 'ldau' 'hubbard_l' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (INTEGER 4 0 0 INTEGER ())
+0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+91 'hubbard_lmax' 'ldau' 'hubbard_lmax' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () ()
+0 () () () 0 0)
+92 'hubbard_u' 'ldau' 'hubbard_u' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+93 'hwf_energy' 'ener' 'hwf_energy' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+94 'ibrav' 'cell_base' 'ibrav' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+95 'ig_l2g' 'gvect' 'ig_l2g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+96 'igk' 'wvfct' 'igk' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0 INTEGER ()) 0
+0 () (1 DEFERRED () ()) 0 () () () 0 0)
+97 'igtongl' 'gvect' 'igtongl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+98 'isk' 'lsda_mod' 'isk' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (1
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '40000')) 0 () () () 0 0)
+99 'klist' 'klist' 'klist' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+100 'lda_plus_u' 'ldau' 'lda_plus_u' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+101 'lda_plus_u_kind' 'ldau' 'lda_plus_u_kind' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0
+INTEGER ()) 0 0 () () 0 () () () 0 0)
+102 'ldau' 'ldau' 'ldau' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+103 'lforce' 'force_mod' 'lforce' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+104 'lgauss' 'klist' 'lgauss' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+105 'lmaxx' 'parameters' 'lmaxx' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+106 'lmovecell' 'cellmd' 'lmovecell' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+107 'lqmax' 'parameters' 'lqmax' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') () 0 () () () 0 0)
+108 'lsda' 'lsda_mod' 'lsda' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+109 'lsda_mod' 'lsda_mod' 'lsda_mod' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+110 'lspinorb' 'spin_orb' 'lspinorb' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+111 'lstres' 'force_mod' 'lstres' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+112 'lxkcry' 'klist' 'lxkcry' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+113 'magtot' 'lsda_mod' 'magtot' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+114 'mill' 'gvect' 'mill' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+115 'mill_g' 'gvect' 'mill_g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+116 'natomwfc' 'basis' 'natomwfc' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () ()
+0 () () () 0 0)
+117 'nbnd' 'wvfct' 'nbnd' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+118 'nbndx' 'wvfct' 'nbndx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+119 'neldw' 'klist' 'neldw' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+120 'nelec' 'klist' 'nelec' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+121 'nelup' 'klist' 'nelup' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+122 'ngauss' 'klist' 'ngauss' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+123 'ngk' 'klist' 'ngk' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 DEFERRED () ()) 0 () () () 0 0)
+124 'ngl' 'gvect' 'ngl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+125 'ngm' 'gvect' 'ngm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+126 'ngm_g' 'gvect' 'ngm_g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+127 'ngms' 'gvecs' 'ngms' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+128 'ngms_g' 'gvecs' 'ngms_g' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+129 'ngmx' 'gvect' 'ngmx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+130 'ngsx' 'gvecs' 'ngsx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+131 'niter_with_fixed_ns' 'ldau' 'niter_with_fixed_ns' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0
+INTEGER ()) 0 0 () () 0 () () () 0 0)
+132 'nks' 'klist' 'nks' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+133 'nkstot' 'klist' 'nkstot' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+134 'nl' 'gvect' 'nl' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 DEFERRED () ()) 0 () () () 0 0)
+135 'nlm' 'gvect' 'nlm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 DEFERRED () ()) 0 () () () 0 0)
+136 'nls' 'gvecs' 'nls' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 DEFERRED () ()) 0 () () () 0 0)
+137 'nlsm' 'gvecs' 'nlsm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ())
+0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+138 'npk' 'parameters' 'npk' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '40000') () 0 () () () 0 0)
+139 'npw' 'wvfct' 'npw' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+140 'npwx' 'wvfct' 'npwx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+141 'nqx' 'us' 'nqx' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+142 'nqxq' 'us' 'nqxq' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+143 'nspin' 'lsda_mod' 'nspin' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+144 'nspinx' 'ldau' 'nspinx' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+145 'ntcheck' 'cellmd' 'ntcheck' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () ()
+0 () () () 0 0)
+146 'ntimes' 'cellmd' 'ntimes' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+147 'ntypx' 'parameters' 'ntypx' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10') () 0 () () () 0 0)
+148 'nzero' 'cellmd' 'nzero' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+149 'oatwfc' 'ldau' 'oatwfc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ())
+0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+150 'omega' 'cell_base' 'omega' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+151 'omega_old' 'cellmd' 'omega_old' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+152 'one_atom_occupations' 'fixed_occ' 'one_atom_occupations' 1 ((
+VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0
+0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+153 'parameters' 'parameters' 'parameters' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+154 'pi' 'constants' 'pi' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8 0 0
+REAL ()) 0 '0.3243f6a8885a30@1') () 0 () () () 0 0)
+155 'press' 'cellmd' 'press' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+156 'pwcom' 'pwcom' 'pwcom' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+157 'q2sigma' 'wvfct' 'q2sigma' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+158 'q_ae' 'ldau' 'q_ae' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(3 DEFERRED () () () () () ()) 0 () () () 0 0)
+159 'q_ps' 'ldau' 'q_ps' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(3 DEFERRED () () () () () ()) 0 () () () 0 0)
+160 'qcutz' 'wvfct' 'qcutz' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+161 'qnorm' 'klist' 'qnorm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+162 'qrad' 'us' 'qrad' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (4
+DEFERRED () () () () () () () ()) 0 () () () 0 0)
+163 'relax' 'relax' 'relax' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+164 'rot_ylm' 'spin_orb' 'rot_ylm' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7')) 0 () ()
+() 0 0)
+165 'rytoev' 'constants' 'rytoev' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () (
+CONSTANT (REAL 8 0 0 REAL ()) 0 '0.d9b0ea057d7988@1') () 0 () () () 0 0)
+166 'sigma' 'force_mod' 'sigma' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2 EXPLICIT
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+167 'smearing' 'klist' 'smearing' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (CHARACTER 1 0 0 CHARACTER ((
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '32'))) 0 0 () () 0 () () () 0 0)
+168 'sortedig_l2g' 'gvect' 'sortedig_l2g' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (1 DEFERRED () ()) 0 () () () 0 0)
+169 'spin_orb' 'spin_orb' 'spin_orb' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+170 'spline_ps' 'us' 'spline_ps' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+171 'starting_magnetization' 'lsda_mod' 'starting_magnetization' 1 ((
+VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (
+REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER
+()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 () () () 0 0)
+172 'starting_ns' 'ldau' 'starting_ns' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(3 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '7') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') (CONSTANT (INTEGER 4 0
+0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10')) 0 ()
+() () 0 0)
+173 'starting_pot' 'basis' 'starting_pot' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (CHARACTER 1 0 0 CHARACTER ((
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '30'))) 0 0 () () 0 () () () 0 0)
+174 'starting_scf_threshold' 'relax' 'starting_scf_threshold' 1 ((
+VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0
+REAL ()) 0 0 () () 0 () () () 0 0)
+175 'starting_spin_angle' 'spin_orb' 'starting_spin_angle' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0
+LOGICAL ()) 0 0 () () 0 () () () 0 0)
+176 'starting_wfc' 'basis' 'starting_wfc' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (CHARACTER 1 0 0 CHARACTER ((
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '30'))) 0 0 () () 0 () () () 0 0)
+177 'startingconfig' 'basis' 'startingconfig' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '30'))) 0 0 () () 0 ()
+() () 0 0)
+178 'strf' 'vlocal' 'strf' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+179 'swfcatom' 'ldau' 'swfcatom' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0
+COMPLEX ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+180 'tab' 'us' 'tab' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (3
+DEFERRED () () () () () ()) 0 () () () 0 0)
+181 'tab_at' 'us' 'tab_at' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(3 DEFERRED () () () () () ()) 0 () () () 0 0)
+182 'tab_d2y' 'us' 'tab_d2y' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(3 DEFERRED () () () () () ()) 0 () () () 0 0)
+183 'tefield' 'extfield' 'tefield' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+184 'tfixed_occ' 'fixed_occ' 'tfixed_occ' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+185 'tot_charge' 'klist' 'tot_charge' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+186 'tot_magnetization' 'klist' 'tot_magnetization' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ())
+0 0 () () 0 () () () 0 0)
+187 'tpi' 'constants' 'tpi' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8 0 0
+REAL ()) 0 '0.6487ed5110b460@1') () 0 () () () 0 0)
+188 'tpiba' 'cell_base' 'tpiba' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+189 'tpiba2' 'cell_base' 'tpiba2' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 ()
+() () 0 0)
+190 'two_fermi_energies' 'klist' 'two_fermi_energies' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0
+LOGICAL ()) 0 0 () () 0 () () () 0 0)
+191 'u_projection' 'ldau' 'u_projection' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (CHARACTER 1 0 0 CHARACTER ((
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '30'))) 0 0 () () 0 () () () 0 0)
+192 'us' 'us' 'us' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+193 'vloc' 'vlocal' 'vloc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 DEFERRED () () () ()) 0 () () () 0 0)
+194 'vlocal' 'vlocal' 'vlocal' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+195 'vtxc' 'ener' 'vtxc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+196 'wg' 'wvfct' 'wg' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2
+DEFERRED () () () ()) 0 () () () 0 0)
+197 'wk' 'klist' 'wk' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '40000')) 0 () () () 0 0)
+198 'wvfct' 'wvfct' 'wvfct' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+199 'xk' 'klist' 'xk' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (2 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '40000')) 0 () () () 0 0)
+200 'xqq' 'klist' 'xqq' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3')) 0 () () () 0 0)
+85 'comm' '' 'comm' 83 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+84 'ngm_' '' 'ngm_' 83 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+79 'ngs_' '' 'ngs_' 78 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+80 'comm' '' 'comm' 78 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('absmag' 0 2 'alat' 0 3 'at' 0 4 'at_old' 0 5 'basis' 0 6 'bg' 0 7
+'btype' 0 8 'calc' 0 9 'cell_base' 0 10 'cell_factor' 0 11 'celldm' 0 12
+'cellmd' 0 13 'cmass' 0 14 'constants' 0 15 'conv_ns' 0 16 'current_k' 0
+17 'current_spin' 0 18 'd_spin_ldau' 0 19 'deallocate_gvecs' 0 20
+'deallocate_gvect' 0 21 'deband' 0 22 'degauss' 0 23 'demet' 0 24
+'dipfield' 0 25 'domag' 0 26 'doublegrid' 0 27 'dp' 0 28 'dq' 0 29 'dual'
+0 30 'e2' 0 31 'eamp' 0 32 'eband' 0 33 'ecfixed' 0 34 'ecutrho' 0 35
+'ecuts' 0 36 'ecutwfc' 0 37 'edir' 0 38 'ef' 0 39 'ef_dw' 0 40 'ef_up' 0
+41 'ehart' 0 42 'eigts1' 0 43 'eigts2' 0 44 'eigts3' 0 45 'elondon' 0 46
+'emaxpos' 0 47 'ener' 0 48 'eopreg' 0 49 'epaw' 0 50 'epse' 0 51 'epsf'
+0 52 'epsp' 0 53 'et' 0 54 'eth' 0 55 'etot' 0 56 'etotefield' 0 57 'etxc'
+0 58 'etxcc' 0 59 'ewld' 0 60 'extfield' 0 61 'f_inp' 0 62 'fcoef' 0 63
+'fixed_occ' 0 64 'force' 0 65 'force_mod' 0 66 'forcefield' 0 67 'fpi' 0
+68 'g' 0 69 'g2kin' 0 70 'gcutm' 0 71 'gcutms' 0 72 'gg' 0 73 'gl' 0 74
+'gstart' 0 75 'gvecs' 0 76 'gvecs_init' 0 77 'gvect' 0 81 'gvect_init' 0
+82 'hubbard_alpha' 0 86 'hubbard_beta' 0 87 'hubbard_j' 0 88 'hubbard_j0'
+0 89 'hubbard_l' 0 90 'hubbard_lmax' 0 91 'hubbard_u' 0 92 'hwf_energy'
+0 93 'ibrav' 0 94 'ig_l2g' 0 95 'igk' 0 96 'igtongl' 0 97 'isk' 0 98
+'klist' 0 99 'lda_plus_u' 0 100 'lda_plus_u_kind' 0 101 'ldau' 0 102
+'lforce' 0 103 'lgauss' 0 104 'lmaxx' 0 105 'lmovecell' 0 106 'lqmax' 0
+107 'lsda' 0 108 'lsda_mod' 0 109 'lspinorb' 0 110 'lstres' 0 111 'lxkcry'
+0 112 'magtot' 0 113 'mill' 0 114 'mill_g' 0 115 'natomwfc' 0 116 'nbnd'
+0 117 'nbndx' 0 118 'neldw' 0 119 'nelec' 0 120 'nelup' 0 121 'ngauss' 0
+122 'ngk' 0 123 'ngl' 0 124 'ngm' 0 125 'ngm_g' 0 126 'ngms' 0 127
+'ngms_g' 0 128 'ngmx' 0 129 'ngsx' 0 130 'niter_with_fixed_ns' 0 131 'nks'
+0 132 'nkstot' 0 133 'nl' 0 134 'nlm' 0 135 'nls' 0 136 'nlsm' 0 137 'npk'
+0 138 'npw' 0 139 'npwx' 0 140 'nqx' 0 141 'nqxq' 0 142 'nspin' 0 143
+'nspinx' 0 144 'ntcheck' 0 145 'ntimes' 0 146 'ntypx' 0 147 'nzero' 0
+148 'oatwfc' 0 149 'omega' 0 150 'omega_old' 0 151 'one_atom_occupations'
+0 152 'parameters' 0 153 'pi' 0 154 'press' 0 155 'pwcom' 0 156 'q2sigma'
+0 157 'q_ae' 0 158 'q_ps' 0 159 'qcutz' 0 160 'qnorm' 0 161 'qrad' 0 162
+'relax' 0 163 'rot_ylm' 0 164 'rytoev' 0 165 'sigma' 0 166 'smearing' 0
+167 'sortedig_l2g' 0 168 'spin_orb' 0 169 'spline_ps' 0 170
+'starting_magnetization' 0 171 'starting_ns' 0 172 'starting_pot' 0 173
+'starting_scf_threshold' 0 174 'starting_spin_angle' 0 175 'starting_wfc'
+0 176 'startingconfig' 0 177 'strf' 0 178 'swfcatom' 0 179 'tab' 0 180
+'tab_at' 0 181 'tab_d2y' 0 182 'tefield' 0 183 'tfixed_occ' 0 184
+'tot_charge' 0 185 'tot_magnetization' 0 186 'tpi' 0 187 'tpiba' 0 188
+'tpiba2' 0 189 'two_fermi_energies' 0 190 'u_projection' 0 191 'us' 0
+192 'vloc' 0 193 'vlocal' 0 194 'vtxc' 0 195 'wg' 0 196 'wk' 0 197 'wvfct'
+0 198 'xk' 0 199 'xqq' 0 200)

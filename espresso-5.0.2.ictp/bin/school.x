@@ -1,0 +1,1 @@
+../SCHOOL/school.x
