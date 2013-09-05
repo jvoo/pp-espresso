@@ -54,10 +54,10 @@ MOD_FLAG      = -I
 # try to specify the directory containing "mpif.h" in IFLAGS
 # and to specify the location of MPI libraries in MPI_LIBS
 
-MPIF90         = gfortran44
+MPIF90         = gfortran
 #F90           = gfortran
-CC             = gcc44
-F77            = gfortran44
+CC             = gcc
+F77            = gfortran
 
 # C preprocessor and preprocessing flags - for explicit preprocessing, 
 # if needed (see the compilation rules above)
@@ -87,7 +87,7 @@ FFLAGS_NOMAIN   =
 # Linker, linker-specific flags (if any)
 # Typically LD coincides with F90 or MPIF90, LD_LIBS is empty
 
-LD             = gfortran44
+LD             = gfortran
 LDFLAGS        = -g
 LD_LIBS        = 
 
