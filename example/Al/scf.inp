@@ -1,0 +1,31 @@
+&CONTROL
+  calculation='scf',
+  prefix='Al',
+  pseudo_dir='.',
+  outdir='.',
+/
+&SYSTEM
+  ibrav=0,
+  celldm(1)=1.8897261245650618d0,
+  nat=1,
+  ntyp=1,
+  ecutwfc=12d0,
+  ecutrho=120d0,
+  nbnd=8,
+  occupations='smearing',
+  smearing='fd',
+  degauss=0.08d0,
+/
+&ELECTRONS
+  conv_thr=7.34986475817e-09,
+/
+CELL_PARAMETERS
+    0.000000000000000d0     2.024750000000000d0     2.024750000000000d0
+    2.024750000000000d0     0.000000000000000d0     2.024750000000000d0
+    2.024750000000000d0     2.024750000000000d0     0.000000000000000d0
+ATOMIC_SPECIES
+Al1 26.98154d0 Al.pz-n-rrkjus_psl.0.1.UPF
+ATOMIC_POSITIONS {crystal}
+Al1      0.000000000000000d0     0.000000000000000d0    -0.000000000000000d0
+K_POINTS automatic
+3 3 3 0 0 0
