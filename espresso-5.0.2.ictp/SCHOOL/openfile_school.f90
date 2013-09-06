@@ -7,9 +7,9 @@ SUBROUTINE openfile_school()
   ! ... sets various file names, units, record lengths
   !
   USE kinds,          ONLY : DP
-  USE wvfct,          ONLY : nbnd, npwx
+  USE wvfct,          ONLY : nbnd, npwx, igk
   use control_flags,  ONLY:  twfcollect
-  USE io_files,       ONLY : prefix, iunwfc, nwordwfc, iunat, iunsat, nwordatwfc, diropn
+  USE io_files,       ONLY : prefix, iunwfc, nwordwfc, iunat, iunsat, nwordatwfc, diropn,iunigk,seqopn
   USE noncollin_module, ONLY : npol
   USE ldaU,             ONLY : lda_plus_u
   USE basis,            ONLY : natomwfc
@@ -34,6 +34,8 @@ SUBROUTINE openfile_school()
   IF ( .NOT. exst ) THEN
      call errore ('openfile_school','file '//TRIM( prefix )//'.wfc'//' not found',1)     
   END IF
+
+  CALL seqopn( iunigk, 'igk', 'UNFORMATTED', exst )
 
   ! ... Needed for LDA+U
   !

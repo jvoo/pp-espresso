@@ -17,8 +17,7 @@ SCHOOLOBJS = \
   stop_pp.o \
   read_export.o \
   openfile_school.o \
-  check_wfcs.o \
-  check_wfcs_R.o
+  check_wfcs.o
 
 
 QEMODS = ../Modules/libqemod.a

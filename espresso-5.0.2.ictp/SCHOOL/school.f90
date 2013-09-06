@@ -98,7 +98,8 @@ program school
 
   IF ( okvan) CALL qpointlist()
 
-  CALL check_wfcs
+  call check_wfcs
+
 
   call stop_pp
 
