@@ -1,0 +1,162 @@
+GFORTRAN module version '0' created from iotk_unit_interf.f90 on Thu Sep  5 10:06:20 2013
+MD5:52ddad2be708656a08e8f20899b34c6b -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () ()
+() () () () () () ())
+
+()
+
+(('iotk_free_unit' 'iotk_unit_interf' 2) ('iotk_inquire'
+'iotk_unit_interf' 3) ('iotk_rewind' 'iotk_unit_interf' 4) (
+'iotk_unit_add' 'iotk_unit_interf' 5) ('iotk_unit_del' 'iotk_unit_interf'
+6) ('iotk_unit_get' 'iotk_unit_interf' 7) ('iotk_unit_parent'
+'iotk_unit_interf' 8) ('iotk_unit_print' 'iotk_unit_interf' 9) (
+'iotk_phys_unit' 'iotk_unit_interf' 10))
+
+()
+
+()
+
+(11 'iotk_free_unit' 'iotk_unit_interf' 'iotk_free_unit' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+12 'iotk_inquire' 'iotk_unit_interf' 'iotk_inquire' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+13 'iotk_phys_unit' 'iotk_unit_interf' 'iotk_phys_unit' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN FUNCTION GENERIC) (UNKNOWN 0
+0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+14 'iotk_rewind' 'iotk_unit_interf' 'iotk_rewind' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+15 'iotk_unit_add' 'iotk_unit_interf' 'iotk_unit_add' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+16 'iotk_unit_del' 'iotk_unit_interf' 'iotk_unit_del' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+17 'iotk_unit_get' 'iotk_unit_interf' 'iotk_unit_get' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+18 'iotk_unit_parent' 'iotk_unit_interf' 'iotk_unit_parent' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC)
+(UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+19 'iotk_unit_print' 'iotk_unit_interf' 'iotk_unit_print' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN SUBROUTINE GENERIC) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+2 'iotk_free_unit_x' 'iotk_unit_interf' 'iotk_free_unit_x' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE
+ALWAYS_EXPLICIT) (UNKNOWN 0 0 0 UNKNOWN ()) 20 0 (21 22) () 0 () () () 0
+0)
+21 'unit' '' 'unit' 20 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+22 'ierr' '' 'ierr' 20 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN
+OPTIONAL DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+10 'iotk_phys_unit_x' 'iotk_unit_interf' 'iotk_phys_unit_x' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL FUNCTION) (
+INTEGER 4 0 0 INTEGER ()) 23 0 (24) () 10 () () () 0 0)
+24 'unit' '' 'unit' 23 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+9 'iotk_unit_print_x' 'iotk_unit_interf' 'iotk_unit_print_x' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 25 0 (26) () 0 () () () 0 0)
+26 'unit' '' 'unit' 25 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+5 'iotk_unit_add_x' 'iotk_unit_interf' 'iotk_unit_add_x' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE
+ALWAYS_EXPLICIT) (UNKNOWN 0 0 0 UNKNOWN ()) 27 0 (28 29 30) () 0 () () ()
+0 0)
+3 'iotk_inquire_x' 'iotk_unit_interf' 'iotk_inquire_x' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE) (UNKNOWN 0
+0 0 UNKNOWN ()) 31 0 (32 33 34 35) () 0 () () () 0 0)
+32 'unit' '' 'unit' 31 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+34 'stream' '' 'stream' 31 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+35 'ierr' '' 'ierr' 31 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+6 'iotk_unit_del_x' 'iotk_unit_interf' 'iotk_unit_del_x' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE) (UNKNOWN 0
+0 0 UNKNOWN ()) 36 0 (37 38) () 0 () () () 0 0)
+8 'iotk_unit_parent_x' 'iotk_unit_interf' 'iotk_unit_parent_x' 1 ((
+PROCEDURE UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 39 0 (40 41 42) () 0 () () () 0 0)
+40 'parent' '' 'parent' 39 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+41 'son' '' 'son' 39 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+42 'ierr' '' 'ierr' 39 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+7 'iotk_unit_get_x' 'iotk_unit_interf' 'iotk_unit_get_x' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE
+ALWAYS_EXPLICIT) (UNKNOWN 0 0 0 UNKNOWN ()) 43 0 (44 45) () 0 () () () 0
+0)
+44 'unit' '' 'unit' 43 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+28 'unit' '' 'unit' 27 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+29 'this' '' 'this' 27 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN POINTER DUMMY) (DERIVED 46 0 0 DERIVED ()) 0 0 () () 0 () () ()
+0 0)
+30 'ierr' '' 'ierr' 27 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+33 'binary' '' 'binary' 31 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN
+DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+37 'unit' '' 'unit' 36 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+38 'ierr' '' 'ierr' 36 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+45 'pointer' '' 'pointer' 43 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN POINTER DUMMY) (DERIVED 47 0 0 DERIVED ()) 0 0 () () 0 ()
+() () 0 0)
+4 'iotk_rewind_x' 'iotk_unit_interf' 'iotk_rewind_x' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC BODY UNKNOWN EXTERNAL SUBROUTINE
+ALWAYS_EXPLICIT) (UNKNOWN 0 0 0 UNKNOWN ()) 48 0 (49 50) () 0 () () () 0
+0)
+49 'unit' '' 'unit' 48 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+46 'iotk_unit' 'iotk_base' 'iotk_unit' 27 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN POINTER_COMP) (UNKNOWN 0 0 0 UNKNOWN ()) 0
+0 () () 0 ((51 'unit' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (52 'root'
+(CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '256')))
+() (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS ()) (53 'skip_root' (LOGICAL 4 0 0 LOGICAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ())
+(54 'raw' (LOGICAL 4 0 0 LOGICAL ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (55 'qe_syntax' (
+LOGICAL 4 0 0 LOGICAL ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (56 'level' (INTEGER 4 0 0 INTEGER ())
+() (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS ()) (57 'close_at_end' (LOGICAL 4 0 0 LOGICAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ())
+(58 'son' (DERIVED 46 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN POINTER) UNKNOWN-ACCESS ()) (59 'parent' (
+DERIVED 46 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN POINTER) UNKNOWN-ACCESS ())) PUBLIC (() ()) () 0 0)
+50 'ierr' '' 'ierr' 48 ((VARIABLE OUT UNKNOWN-PROC UNKNOWN UNKNOWN
+OPTIONAL DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+47 'iotk_unit' 'iotk_base' 'iotk_unit' 43 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN POINTER_COMP) (UNKNOWN 0 0 0 UNKNOWN ()) 0
+0 () () 0 ((60 'unit' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (61 'root'
+(CHARACTER 1 0 0 CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '256')))
+() (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS ()) (62 'skip_root' (LOGICAL 4 0 0 LOGICAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ())
+(63 'raw' (LOGICAL 4 0 0 LOGICAL ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (64 'qe_syntax' (
+LOGICAL 4 0 0 LOGICAL ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN) UNKNOWN-ACCESS ()) (65 'level' (INTEGER 4 0 0 INTEGER ())
+() (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS ()) (66 'close_at_end' (LOGICAL 4 0 0 LOGICAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS ())
+(67 'son' (DERIVED 47 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN POINTER) UNKNOWN-ACCESS ()) (68 'parent' (
+DERIVED 47 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN POINTER) UNKNOWN-ACCESS ())) PUBLIC (() ()) () 0 0)
+)
+
+('iotk_free_unit' 0 11 'iotk_inquire' 0 12 'iotk_phys_unit' 0 13
+'iotk_rewind' 0 14 'iotk_unit_add' 0 15 'iotk_unit_del' 0 16
+'iotk_unit_get' 0 17 'iotk_unit_parent' 0 18 'iotk_unit_print' 0 19)

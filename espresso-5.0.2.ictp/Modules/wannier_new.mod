@@ -1,0 +1,103 @@
+GFORTRAN module version '0' created from wannier_new.f90 on Thu Sep  5 10:06:44 2013
+MD5:f8daba92b0eab55f5be48d88b9b49dc7 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () ()
+() () () () () () () () () () () () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'coef' 'wannier_new' 'coef' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (3 DEFERRED () () () () () ()) 0 () () () 0 0)
+3 'dp' 'kinds' 'dp' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0
+0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+4 'ingredient' 'wannier_new' 'ingredient' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ((
+5 'l' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '0')) (6 'm' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '0')) (7 'iatomwfc' (INTEGER 4 0 0 INTEGER ())
+() (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0')) (8 'c' (
+REAL 4 0 0 REAL ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN) UNKNOWN-ACCESS (CONSTANT (REAL 8 0 0 REAL ()) 0
+'0.00000000000000@0'))) PUBLIC (() ()) () 0 0)
+9 'ningx' 'wannier_new' 'ningx' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10') () 0 () () () 0 0)
+10 'nwan' 'wannier_new' 'nwan' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+11 'plot_wan_num' 'wannier_new' 'plot_wan_num' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0
+INTEGER ()) 0 0 () () 0 () () () 0 0)
+12 'plot_wan_spin' 'wannier_new' 'plot_wan_spin' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0
+INTEGER ()) 0 0 () () 0 () () () 0 0)
+13 'plot_wannier' 'wannier_new' 'plot_wannier' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0
+LOGICAL ()) 0 0 () () 0 () () () 0 0)
+14 'pp' 'wannier_new' 'pp' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (COMPLEX 8 0 0 COMPLEX ())
+0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+15 'print_wannier_coeff' 'wannier_new' 'print_wannier_coeff' 1 ((
+VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0
+0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+16 'rkmesh' 'wannier_new' 'rkmesh' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+17 'use_energy_int' 'wannier_new' 'use_energy_int' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0
+LOGICAL ()) 0 0 () () 0 () () () 0 0)
+18 'use_wannier' 'wannier_new' 'use_wannier' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+19 'wan_in' 'wannier_new' 'wan_in' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (DERIVED 20 0
+0 DERIVED ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+21 'wan_pot' 'wannier_new' 'wan_pot' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0
+REAL ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+20 'wannier_data' 'wannier_new' 'wannier_data' 1 ((DERIVED
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ())
+0 0 () () 0 ((22 'iatom' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '0')) (23 'ning' (INTEGER 4 0 0 INTEGER ())
+() (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN)
+UNKNOWN-ACCESS (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0')) (24
+'bands_from' (REAL 4 0 0 REAL ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS (CONSTANT (REAL 8 0 0 REAL
+()) 0 '0.00000000000000@0')) (25 'bands_to' (REAL 4 0 0 REAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN) UNKNOWN-ACCESS (
+CONSTANT (REAL 8 0 0 REAL ()) 0 '0.00000000000000@0')) (26 'ing' (
+DERIVED 4 0 0 DERIVED ()) (1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ())
+0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10')) (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN DIMENSION) UNKNOWN-ACCESS (
+STRUCTURE (DERIVED 4 0 0 DERIVED ()) 0 (((CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '0') ()) ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') ())
+((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') ()) ((CONSTANT (REAL 8 0 0
+REAL ()) 0 '0.00000000000000@0') ())) ()))) PUBLIC (() ()) () 0 0)
+27 'wannier_energy' 'wannier_new' 'wannier_energy' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION)
+(REAL 8 0 0 REAL ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+28 'wannier_new' 'wannier_new' 'wannier_new' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ()
+() () 0 0)
+29 'wannier_occ' 'wannier_new' 'wannier_occ' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION) (REAL 8 0 0
+REAL ()) 0 0 () (3 DEFERRED () () () () () ()) 0 () () () 0 0)
+)
+
+('coef' 0 2 'dp' 0 3 'ingredient' 0 4 'ningx' 0 9 'nwan' 0 10
+'plot_wan_num' 0 11 'plot_wan_spin' 0 12 'plot_wannier' 0 13 'pp' 0 14
+'print_wannier_coeff' 0 15 'rkmesh' 0 16 'use_energy_int' 0 17
+'use_wannier' 0 18 'wan_in' 0 19 'wan_pot' 0 21 'wannier_data' 0 20
+'wannier_energy' 0 27 'wannier_new' 0 28 'wannier_occ' 0 29)

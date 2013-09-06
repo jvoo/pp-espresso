@@ -1,5 +1,5 @@
-GFORTRAN module version '0' created from realus.f90 on Thu Sep  5 03:28:24 2013
-MD5:f10dacfcc202fb949d28e5a354868f13 -- If you edit this, you'll get what you deserve.
+GFORTRAN module version '0' created from realus.f90 on Thu Sep  5 10:09:31 2013
+MD5:b6195f33dce160efbc9653f7e50460f4 -- If you edit this, you'll get what you deserve.
 
 (()
 () () () () () () () () () () () () () () () () () () () () () () () ()
@@ -347,8 +347,6 @@ UNKNOWN EXPLICIT-SAVE) (DERIVED 165 0 0 DERIVED ()) 0 0 () () 0 () () ()
 DIMENSION DUMMY) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT (CONSTANT (
 INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0 INTEGER ()) 0
 168 ())) 0 () () () 0 0)
-29 'sca' '' 'sca' 28 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
-(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
 32 'becp_jw' '' 'becp_jw' 28 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN
 DIMENSION DUMMY) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT (CONSTANT (
 INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0 INTEGER ()) 0
@@ -929,6 +927,8 @@ INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4 0 0 INTEGER ()) 0
 408 ()) (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER 4
 0 0 INTEGER ()) 0 408 ()) (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
 VARIABLE (INTEGER 4 0 0 INTEGER ()) 0 409 ())) 0 () () () 0 0)
+29 'sca' '' 'sca' 28 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
 408 'nhm' 'uspp_param' 'nhm' 28 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
 UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
 0)

@@ -1,0 +1,117 @@
+GFORTRAN module version '0' created from bp_mod.f90 on Thu Sep  5 10:09:38 2013
+MD5:3e36becb2be28232553eeba2006f6100 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () ()
+() () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'allocate_bp_efield' 'bp' 'allocate_bp_efield' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+3 'bec_evcel' 'bp' 'bec_evcel' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (COMPLEX 8 0 0
+COMPLEX ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+4 'bp_global_map' 'bp' 'bp_global_map' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+5 'deallocate_bp_efield' 'bp' 'deallocate_bp_efield' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+6 'efield' 'bp' 'efield' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+7 'efield_cart' 'bp' 'efield_cart' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+8 'efield_cry' 'bp' 'efield_cry' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+9 'el_pol' 'bp' 'el_pol' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3')) 0 () () () 0 0)
+10 'el_pol_acc' 'bp' 'el_pol_acc' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+11 'el_pol_old' 'bp' 'el_pol_old' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+12 'evcel' 'bp' 'evcel' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (COMPLEX 8 0 0 COMPLEX ()) 0
+0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+13 'evcelm' 'bp' 'evcelm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (COMPLEX 8 0 0
+COMPLEX ()) 0 0 () (3 DEFERRED () () () () () ()) 0 () () () 0 0)
+14 'evcelp' 'bp' 'evcelp' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (COMPLEX 8 0 0
+COMPLEX ()) 0 0 () (3 DEFERRED () () () () () ()) 0 () () () 0 0)
+15 'fact_hepsi' 'bp' 'fact_hepsi' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (
+COMPLEX 8 0 0 COMPLEX ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+16 'fc_pol' 'bp' 'fc_pol' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3')) 0 () () () 0 0)
+17 'gdir' 'bp' 'gdir' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+18 'ion_pol' 'bp' 'ion_pol' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 () (1 EXPLICIT
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '3')) 0 () () () 0 0)
+19 'l3dstring' 'bp' 'l3dstring' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+20 'l_el_pol_old' 'bp' 'l_el_pol_old' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () ()
+0 () () () 0 0)
+21 'lberry' 'bp' 'lberry' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+22 'lelfield' 'bp' 'lelfield' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0
+0)
+23 'lorbm' 'bp' 'lorbm' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+24 'mapgm_global' 'bp' 'mapgm_global' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+25 'mapgp_global' 'bp' 'mapgp_global' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE ALLOCATABLE DIMENSION TARGET) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (2 DEFERRED () () () ()) 0 () () () 0 0)
+26 'nberrycyc' 'bp' 'nberrycyc' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+27 'nppstr' 'bp' 'nppstr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+28 'nppstr_3d' 'bp' 'nppstr_3d' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (1
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+29 'nx_el' 'bp' 'nx_el' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE ALLOCATABLE DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+2 DEFERRED () () () ()) 0 () () () 0 0)
+30 'transform_el' 'bp' 'transform_el' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN EXPLICIT-SAVE DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+)
+
+('allocate_bp_efield' 0 2 'bec_evcel' 0 3 'bp_global_map' 0 4
+'deallocate_bp_efield' 0 5 'efield' 0 6 'efield_cart' 0 7 'efield_cry' 0
+8 'el_pol' 0 9 'el_pol_acc' 0 10 'el_pol_old' 0 11 'evcel' 0 12 'evcelm'
+0 13 'evcelp' 0 14 'fact_hepsi' 0 15 'fc_pol' 0 16 'gdir' 0 17 'ion_pol'
+0 18 'l3dstring' 0 19 'l_el_pol_old' 0 20 'lberry' 0 21 'lelfield' 0 22
+'lorbm' 0 23 'mapgm_global' 0 24 'mapgp_global' 0 25 'nberrycyc' 0 26
+'nppstr' 0 27 'nppstr_3d' 0 28 'nx_el' 0 29 'transform_el' 0 30)
